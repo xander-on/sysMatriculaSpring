@@ -18,4 +18,8 @@ public class MatriculaMateriaService {
   public List<MatriculaMateriaEntity> getByIdMatricula(String idMatricula) {  
     return matriculaMateriaRepository.findAllByMatriculaId( idMatricula );
   }
+
+  public MatriculaMateriaEntity postMatriculaMateria( MatriculaMateriaEntity matriculaMateria) {
+    return matriculaMateriaRepository.save(matriculaMateria);
+  }
 }

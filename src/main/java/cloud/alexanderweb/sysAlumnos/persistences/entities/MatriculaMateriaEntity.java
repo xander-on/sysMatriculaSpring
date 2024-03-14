@@ -34,3 +34,6 @@ public class MatriculaMateriaEntity {
   private boolean activo;
 
 }
+
+
+
