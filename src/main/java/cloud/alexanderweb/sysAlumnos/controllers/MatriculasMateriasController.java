@@ -23,18 +23,6 @@ public class MatriculasMateriasController {
   @Autowired
   MatriculaMateriaService matriculaMateriaService;
 
-  // @GetMapping("/{idMatricula}")
-  // @CrossOrigin
-  // public ResponseEntity<List<MatriculaMateriaEntity>> 
-  //   getMateriasByMatricula( @PathVariable String idMatricula){
-
-  //   List<MatriculaMateriaEntity> materias = this.matriculaMateriaService
-  //     .getByIdMatricula( idMatricula );
-  
-  //   return ResponseEntity.ok(materias);
-  // }
-
-
   @GetMapping("")
   @CrossOrigin
   public ResponseEntity<MatriculaMateriasDTO> 
